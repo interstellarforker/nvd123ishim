@@ -3,7 +3,7 @@ name: Game Request
 about: Suggest a game you would like to be added to the site.
 title: "[Game]"
 labels: Game Request
-assignees: xbubbo
+assignees: interstellarforker
 ---
 
 **What is the name of the game?**
