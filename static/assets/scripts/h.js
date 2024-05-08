@@ -164,16 +164,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
 })
 // Splash
 let SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
+  "Newest proxy server",
+  "Fastest proxy server",
+  "Made by nvd123",
+  "Sub to my YT (@nvd123) :)",
   "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
+  "Don't get in trouble lol",
+  "The world is yours",
+  "Have fun",
   "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "Turn off ads if you want",
 ]
 
 let SplashI = Math.floor(Math.random() * SplashT.length)
