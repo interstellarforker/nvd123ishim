@@ -1,5 +1,6 @@
-<h1>nvd123s tools proxy is the best proxy loaded with tons of tools</h1>
+<h1>nvd123s tools proxy is the best proxy loaded with tons of features</h1>
 
+<h2>Features include:</h2>
 - About:Blank Cloaking
 - Tab Cloaking
 - Wide collection of apps & games
