@@ -1,4 +1,4 @@
-NVD123S TOOLS IS THE BEST PROXY, LOADED WITH FEATURES LIKE...
+<h1>nvd123s tools proxy is the best proxy loaded with tons of tools</h1>
 
 - About:Blank Cloaking
 - Tab Cloaking
@@ -6,9 +6,8 @@ NVD123S TOOLS IS THE BEST PROXY, LOADED WITH FEATURES LIKE...
 - Clean, Easy to use UI
 - Inspect Element
 - Various Themes
-- Password Protection (Optional)
 - Built-in Tab System
-- Now.gg Support
+- Now.gg Support (doesn't work for some)
 - Fast Speeds
 - Geforce NOW Support
-
+- Custom search engine support
