@@ -37,6 +37,11 @@
     "categories": ["all"]
   },
   {
+    "name": "Football Sporting Director",
+    "link": "https://football-sd.com/",
+    "image": "/assets/media/icons/fsd.webp",
+    "categories": ["all","sports"]
+  {
     "name": "Pranx",
     "link": "https://pranx.com/",
     "image": "/assets/media/icons/pranx.webp",
