@@ -12,6 +12,12 @@
     "categories": ["all"]
   },
   {
+    "name": "McDonalds",
+    "link": "https://mcdonalds.com",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/McDonald%27s_square_2020.svg/800px-McDonald%27s_square_2020.svg.png",
+    "categories": ["all"]
+  },
+  {
     "name": "Amazon",
     "link": "https://amazon.com/",
     "image": "/assets/media/icons/amazon.webp",
