@@ -7,9 +7,16 @@
   },
   {
     "name": "Burger King",
-    "link": "https://Burger King.com",
+    "link": "https://burgerking.com",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdyW4BoxYADKBtPoaTqgd2CZOeIJ0D8ZhdRrGs_v0U-Q&s",
     "categories": ["all"]
+  },
+  {
+    "name": "Chick-Fil-A",
+    "link": "https://chick-fil-a.com",
+    "image": "https://media.nj.com/njo_top_stories/photo/chick-fil-a-e62e25bf8246c0b2.png",
+    "categories": ["all"]
+  },
   },
   {
     "name": "McDonalds",
