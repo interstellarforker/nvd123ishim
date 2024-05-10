@@ -32,7 +32,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI("pLink")) || "https://www.nasa.gov/"
+    const pLink = localStorage.getItem(encodeURI("pLink")) || "https://www.classroom.google.com/"
     location.replace(pLink)
 
     const script = doc.createElement("script")
@@ -174,6 +174,7 @@ let SplashT = [
   "Have fun",
   "Check out the settings page",
   "Turn off ads if you want",
+  "Follow my Twitter(@nvd123YT)",
 ]
 
 let SplashI = Math.floor(Math.random() * SplashT.length)
