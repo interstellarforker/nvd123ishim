@@ -4,12 +4,13 @@
 
 - About:Blank Cloaking
 - Tab Cloaking
-- Wide collection of apps & games
-- Clean, Easy to use UI
-- Inspect Element
+- Tons of apps and games
+- Accessible, clean UI
+- Inspect Element Support
 - Various Themes
 - Built-in Tab System
 - Now.gg Support (doesn't work for some)
 - Fast Speeds
 - Geforce NOW Support
 - Custom search engine support
+- Ad-Free Experience (NEW)
