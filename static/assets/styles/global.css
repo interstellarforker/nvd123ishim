@@ -1,5 +1,5 @@
 :root {
-  --page: url("/./assets/media/background/full2.png");
+  --page: url("https://media.istockphoto.com/id/1410455925/vector/dynamic-blue-particle-wave-abstract-sound-visualization-digital-structure-of-the-wave-flow.jpg?s=612x612&w=0&k=20&c=RL7do3aEvte0cKukjC30eHQ4nujXUIOa2TvQbIN8eKw=");
   --background: rgba(255, 255, 255, 0.02);
   --background-filter: blur(10px) brightness(80%);
   --background-secondary: #4545459e;
