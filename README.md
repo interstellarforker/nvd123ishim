@@ -15,9 +15,7 @@
 - Custom search engine support
 - Ad-Free Experience (NEW)
 
-<h1>nvd123s tools TOS</h1>
-    <h1>DEFINITIONS</h1>
-    <p>"the service" refers to nvd123s tools</p>
+<h1>NVD123S TOOLS TOS</h1>
     <h1>TOS</h1>
     <p>By using this service "nvd123s tools" you agree to the following</p>
     <ul>
