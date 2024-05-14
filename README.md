@@ -16,7 +16,7 @@
 - Ad-Free Experience (NEW)
 
 <h1>nvd123s tools TOS</h1>
-    <h2>TOS</h2>
+    <h1>TOS</h1>
     <p>By using this service "nvd123s tools" you agree to the following</p>
     <ul>
       <li>You are not allowed to use the service for any illegal or unethical activities</li>
@@ -26,7 +26,7 @@
         <li>Using the service to "hack" or "steal" accounts on any website is prohibited</li>
     <li>Any violation of the following terms will revoke your access to the service</li>
     </ul>
-    <h3>Privacy Policy</h3>
+    <h1>PRIVACY POLICY</h1>
     <p>While using the service you agree to the following data collection</p>
     <ul>
       <li>Your IP adress, which allows you to use the service (this is deleted when you close the browser)
@@ -35,14 +35,14 @@
       <li>Tracking of data like requests sent, bandwith usage, and time spent using the browser (not deleted, but stored anonymously)</li>
       <li>Any disagreements to these collections officially prohibit you from using the service</li>
     </ul>
-  <h3>Deployment policy</h3>
+  <h1>DEPLOYMENT POLICY</h1>
     <p>Deploying the service has some requirements</p>
   <ul>
       <li>You may NOT change the code of any fork</li>
       <li>You MUST keep your fork updated on the latest version ALWAYS</li>
       <li>You may NOT make forks for any sort of profit</li>
   </ul>
-  <h4>GitHub policy</h4>
+  <h1>GITHUB POLICY</h1>
   <p>There are some things we will not allow on GitHub when it pertains to the service</p>
   <ul>
       <li>Issues about now.gg (just refresh for a while)</li>
