@@ -1,4 +1,4 @@
-<h1>nvd123s tools</h1>
+<h1>nvd123s tools TOS</h1>
     <h2>TOS</h2>
     <p>By using this service "nvd123s tools" you agree to the following</p>
     <ul>
