@@ -17,6 +17,7 @@
       <div class="main">
         <h1 class="title"><an>nvd123s</an> tools</h1>
         <p id="splash">Unknown</p>
+        <span id="clock"></span> 
         <div class="search-container">
           <form id="fs" method="POST">
             <input id="is" class="main-search" placeholder="Search with Google or enter address" type="text" />
@@ -31,6 +32,14 @@
     <script src="https://kit.fontawesome.com/1237c86ba0.js" crossorigin="anonymous"></script>
     <script src="/assets/scripts/m.js?v=52"></script>
     
+    <script type="text/javascript"> 
+        var clockElement = document.getElementById('clock'); 
+      
+        function clock() { 
+            clockElement.textContent = new Date().toString(); 
+        } 
+        setInterval(clock, 1000); 
+    </script>
     
     <!-- DO NOT REMOVE-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
