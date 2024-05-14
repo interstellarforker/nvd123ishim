@@ -64,7 +64,7 @@ var nav = document.querySelector(".fixed-nav-bar")
 if (nav) {
   var html = `
     <div class="fixed-nav-bar-container">
-      <a class="icon" href="/./"><img alt="nav" id="INImg" src="https://yt3.googleusercontent.com/msU8zqR06X5bksPvL7yGtIRCE2C_oRsrm2JIjgF7osd6Myzl7ThHunhEgr9OAVrS60Csgq21Xg=s900-c-k-c0x00ffffff-no-rj"/></a>
+      <a class="icon" href="/./"><img alt="nav" id="INImg" src="https://yt3.googleusercontent.com/msU8zqR06X5bksPvL7yGtIRCE2C_oRsrm2JIjgF7osd6Myzl7ThHunhEgr9OAVrS60Csgq21Xg=s900-c-k-c0x00ffffff-no-rj"/></a><an>nvd123s</an><an> tools</an>
     </div>
     <div class="fixed-nav-bar-right">
       <a class="navbar-link" href="/./gm"><i class="fa-solid fa-gamepad navbar-icon"></i><an>Ga</an><an>mes</an></a>
