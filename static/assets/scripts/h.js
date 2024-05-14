@@ -164,16 +164,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
 })
 // Splash
 let SplashT = [
-  "Newest proxy server",
-  "Fastest proxy server",
+  "First ever private browser-in-browser",
+  "100% private, always",
   "Made by nvd123",
   "Sub to my YT (@nvd123) :)",
   "Thanks for using the site",
-  "Don't get in trouble lol",
-  "The world is yours",
-  "Have fun",
-  "Check out the settings page",
-  "Turn off ads if you want",
+  "GitHub https://github.com/interstellarforker/nvd123ishim",
+  "What you do next, nobody will ever know",
+  "The project is in BETA",
+  "Check settings (themes are broken)",
+  "AD-FREE Experience",
   "Follow my Twitter(@nvd123YT)",
 ]
 
