@@ -15,8 +15,8 @@
 - Custom search engine support
 - Ad-Free Experience (NEW)
 
-<h1>NVD123S TOOLS TOS</h1>
-    <h1>TOS</h1>
+<h1>NVD123S TOOLS TERMS OF SERVICE + PRIVACY</h1>
+    <h1>TERMS OF SERVICE</h1>
     <p>By using this service "nvd123s tools" you agree to the following</p>
     <ul>
       <li>You are not allowed to use the service for any illegal or unethical activities</li>
@@ -33,6 +33,7 @@
       <li>Location (only on specific websites, deleted when you close the browser)</li>
       <li>Cookies stored in the browser (deleted when you clear computer cache, stored locally)</li>
       <li>Tracking of data like requests sent, bandwith usage, and time spent using the browser (not deleted, but stored anonymously)</li>
+      <li>We track CPU usage on the service</li>
       <li>Any disagreements to these collections officially prohibit you from using the service</li>
     </ul>
   <h1>DEPLOYMENT POLICY</h1>
@@ -49,7 +50,7 @@
       <li>Issues about Gmail or Proton Mail (they dont work)</li>
       <li>Commits changing the branding of the service</li>
       <li>Issues about Snapchat, Instagram, Reddit, or Whatsapp on the serivce (they will never work)</li>
-      <li>Spam commits on the repo</li>
+      <li>Pull requests that create either <b>SPAM</b> or <b>MALICIOUS CODE</b></li>
   </ul>
 <h1>CONTROL</h1>
 <p>The developers of the service are not liable for the following</p>
