@@ -59,3 +59,12 @@
 <li>If you get in trouble in any way (school, work, other stuff) for using the service</li>
 </ul>
 <h1>YOU MUST AGREE TO ALL OF THE TERMS TO USE THE SERVICE</h1>
+
+
+
+
+<h1>OFFICIAL LINK GALLERY (MORE SOON)</h1>
+<ul>
+    <li>https://apple-trees-apple-trees-85b6bf01.koyeb.app/</li>
+    <li>https://nvd123s-utilities.vercel.app</li>
+</ul>
