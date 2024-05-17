@@ -169,10 +169,10 @@ let SplashT = [
   "Made by nvd123",
   "Sub to my YT (@nvd123) :)",
   "Thanks for using the site",
-  "GitHub https://github.com/interstellarforker/nvd123ishim",
+  "Problems, Questions, make an issue at https://github.com/interstellarforker/nvd123ishim",
   "What you do next, nobody will ever know",
   "The project is in BETA",
-  "Check settings (themes are broken)",
+  "Check settings for cloaks, custom background, and more",
   "AD-FREE Experience",
   "Follow my Twitter(@nvd123YT)",
 ]
