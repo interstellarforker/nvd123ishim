@@ -22,7 +22,8 @@
     "link": "https://steampowered.com/",
     "image": "/assets/media/icons/steam.webp",
     "categories": ["all"],
-    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now."
+    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now.",
+    "partial": true
   },
   {
     "name": "BuzzFeed Quizzes",
@@ -151,6 +152,24 @@
     "categories": ["all", "social", "message"]
   },
   {
+    "name": "MLB",
+    "link": "https://mlb.com",
+    "image": "/assets/media/icons/mlb.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "NFL",
+    "link": "https://nfl.com",
+    "image": "/assets/media/icons/nfl.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "NBA",
+    "link": "https://nba.com",
+    "image": "assets/media/icons/nba.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Paramount Plus",
     "link": "https://paramountplus.com",
     "image": "/assets/media/icons/paramount.webp",
@@ -175,6 +194,12 @@
     "categories": ["all", "game"]
   },
   {
+    "name": "Premier League",
+    "link": "https://premierleague.com",
+    "image": "/assets/media/icons/pl.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Soundcloud",
     "link": "https://soundcloud.com",
     "image": "/assets/media/icons/soundcloud.webp",
@@ -197,6 +222,42 @@
     "link": "https://tiktok.com",
     "image": "/assets/media/icons/tiktok.webp",
     "categories": ["all", "social", "media"]
+  },
+  {
+    "name": "Free Media Heck Yeah",
+    "link": "https://fmhy.pages.dev",
+    "image": "/assets/media/icons/fmhy.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Canva",
+    "link": "https://canva.com",
+    "image": "/assets/media/icons/canva.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Wikipedia",
+    "link": "https://en.wikipedia.org",
+    "image": "/assets/media/icons/wiki.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "GOAL",
+    "link": "https://goal.com",
+    "image": "/assets/media/icons/goal.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Trello",
+    "link": "https://trello.com",
+    "image": "/assets/media/icons/trello.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Gidd.io Games",
+    "link": "https://gidd.io",
+    "image": "/assets/media/icons/gidd.webp",
+    "categories": ["all"]
   },
   {
     "name": "Tumblr",
@@ -230,13 +291,14 @@
   },
   {
     "name": "YouTube",
+    "link": "https://youtube.com",
     "image": "/assets/media/icons/youtube.webp",
     "categories": ["all", "social", "stream", "media"],
-    "error": true,
-    "say": "YouTube is currently not working. Use Invidious Instead."
+    "dy": "true",
+    "partial": "true"
   },
   {
-    "name": "YouTube (Invidious)",
+    "name": "YouTube Alternative (Invidious)",
     "link": "https://vid.puffyan.us/",
     "image": "/assets/media/icons/youtube.webp",
     "categories": ["all", "social", "stream", "media"]

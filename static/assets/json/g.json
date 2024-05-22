@@ -19,6 +19,12 @@
     "blank": "true"
   },
   {
+    "name": "Gartic Phone",
+    "link": "https://garticphone.com",
+    "image": "/assets/media/icons/garticphone.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Newgrounds",
     "link": "https://newgrounds.com/",
     "image": "/assets/media/icons/newgrounds.webp",
@@ -35,7 +41,14 @@
     "link": "https://steampowered.com/",
     "image": "/assets/media/icons/steam.webp",
     "categories": ["all"],
-    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now."
+    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now.",
+    "partial": true
+  },
+  {
+    "name": "Swordbattle.io",
+    "link": "https://swordbattle.io/",
+    "image": "/assets/media/icons/swordbattle.webp",
+    "categories": ["all", "2d"]
   },
   {
     "name": "Stabfish.io",
@@ -539,9 +552,10 @@
   },
   {
     "name": "Duck Life 4",
-    "link": "https://www.hoodamath.com/mobile/games/duck-life-4/game.html",
-    "image": "/assets/media/icons/ducklife.webp",
-    "categories": ["all"]
+    "link": "/e/ducklife4/index.html",
+    "image": "/assets/media/icons/dl4.webp",
+    "categories": ["all", "local"],
+    "load": true
   },
   {
     "name": "Papa's Freezeria",
@@ -1847,6 +1861,12 @@
     "link": "https://www.twoplayergames.org/",
     "image": "/assets/media/icons/tpg.webp",
     "categories": ["all"]
+  },
+  {
+    "name": "Five Nights at Winston's",
+    "link": "https://g.deev.is/fnaw/",
+    "image": "/assets/media/icons/fnaw.webp",
+    "categories": ["all", "game"]
   },
   {
     "name": "Goomy Clicker 2",
