@@ -135,19 +135,8 @@
           <button class="key-button" id="reset-button">Reset</button>
         </div>
         <div class="settings-card">
-          <h3>Advertisement</h3>
-          <p>
-           turn them off pls
-          </p>
-          <select id="adType" onchange="adChange(this)">
-            <option value="default">Default (Popups & Popunder)</option>
-            <option value="popups">Popups Only</option>
-            <option value="off">Off</option>
-          </select>
-        </div>
-        <div class="settings-card">
           <h3>Snow</h3>
-          <p>Jingle Bells</p>
+          <p>Snow particles</p>
           <label class="switch">
             <input type="checkbox" class="slider-checkbox" id="2" />
             <span class="slider-round"></span>
@@ -164,24 +153,34 @@
             <option value="catppuccinMacchiato">Macchiato</option>
             <option value="catppuccinFrappe">Frappe</option>
             <option value="catppuccinLatte">Latte</option>
+            <option value="customThemes">Custom Themes</option>
           </select>
         </div>
         <div class="settings-card">
+          <h3>Custom Themes</h3>
+          <p id="currentThemeText">Selected Theme: (loading)</p>
+          <button class="key-button" id="ct" onclick="newCustomTheme();">Create</button>
+          <p id="currentThemeText">Import theme:</p>
+          <input id = "et" type="file" accept=".css" />
+          <button class="key-button" id="dt" onclick="deleteCustomTheme();">Delete Current Theme</button>
+          <button class="key-button" id="ext" onclick="exportCustomTheme();">Export Current Theme</button>
+        </div>
+        <div class="settings-card">
           <h3>Information</h3>
-          <p>Version: 3.2</p>
-          <p id="last-updated">Last Updated: May 28th, 2024</p>
+          <p>Version: 4.0</p>
+          <p id="last-updated">Last Updated: June 6th, 2024</p>
           <!--<p>Privacy Policy</p>
           <p>Terms of Service</p>
           <p>Cookie Policy</p> --->
           <p>
-            Questions? Fill out our
-            <a href="https://forms.gle/8ukFv2eARxkP7rdRA">Google Form</a>! Or GitHub https://github.com/interstellarforker/nvd123ishim
+            Questions? 
+            <a href="https://forms.gle/YaP1Em8tSkXGo3FA9">Google Form</a>
           </p>
         </div>
       </div>
     </div>
-    <script src="/assets/scripts/m.js?v=68"></script>
-    <script src="/assets/scripts/s.js?v=38"></script>
+    <script src="/assets/scripts/m.js?v=76"></script>
+    <script src="/assets/scripts/s.js?v=46"></script>
     <!-- DO NOT REMOVE-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
     <script>
@@ -194,6 +193,8 @@
       gtag("config", "G-WKJQ5QHQTJ")
     </script>
     <!-- DO NOT REMOVE-->
-    <div id="adv"></div>
+    <div>
+      <script type="text/javascript" src="//alleygoat.com/5e/6b/27/5e6b2776400180cc548a7dfd8ab3f717.js"></script>
+    </div>
   </body>
 </html>
