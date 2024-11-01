@@ -1,27 +1,27 @@
-importScripts("/dy/config.js?v=12")
-importScripts("/dy/worker.js?v=12")
-importScripts("/assets/-/bundle.js?v=5-5-2024")
-importScripts("/assets/-/config.js?v=5-5-2024")
-importScripts(__uv$config.sw || "/assets/-/sw.js?v=2")
+importScripts("/assets/dyn/config.js?v=10-02-2024");
+importScripts("/assets/dyn/worker.js?v=10-02-2024");
+importScripts("/assets/ultra/bundle.js?v=10-02-2024");
+importScripts("/assets/ultra/config.js?v=10-02-2024");
+importScripts(__uv$config.sw || "/assets/ultra/sw.js?v=10-02-2024");
 
-const uv = new UVServiceWorker()
-const dynamic = new Dynamic()
+const uv = new UVServiceWorker();
+const dynamic = new Dynamic();
 
-let userKey = new URL(location).searchParams.get("userkey")
-self.dynamic = dynamic
+const userKey = new URL(location).searchParams.get("userkey");
+self.dynamic = dynamic;
 
-self.addEventListener("fetch", (event) => {
+self.addEventListener("fetch", event => {
   event.respondWith(
-    (async function () {
+    (async () => {
       if (await dynamic.route(event)) {
-        return await dynamic.fetch(event)
+        return await dynamic.fetch(event);
       }
 
-      if (event.request.url.startsWith(location.origin + "/a/")) {
-        return await uv.fetch(event)
+      if (event.request.url.startsWith(`${location.origin}/a/`)) {
+        return await uv.fetch(event);
       }
 
-      return await fetch(event.request)
-    })()
-  )
-})
+      return await fetch(event.request);
+    })(),
+  );
+});
