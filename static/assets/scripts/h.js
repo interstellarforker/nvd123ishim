@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 // Splash
 const SplashT = [
   "Sub to nvd123 on YouTube",
-  "Request games or report bugs in settings (Google Form)",
+  "Request games or report bugs in settings (Discord link)",
   "Made by nvd123",
   "Follow @nvd123YT on Twitter",
   "First private browser-in-browser",
