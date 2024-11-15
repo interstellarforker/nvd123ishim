@@ -1,63 +1,55 @@
-let inFrame;
+let inFrame
 
 try {
-  inFrame = window !== top;
+  inFrame = window !== top
 } catch (e) {
-  inFrame = true;
+  inFrame = true
 }
-if (!localStorage.getItem("ab")) localStorage.setItem("ab", true);
-if (
-  !inFrame &&
-  !navigator.userAgent.includes("Firefox") &&
-  localStorage.getItem("ab") === "true"
-) {
-  const popup = open("about:blank", "_blank");
+if (!localStorage.getItem("ab")) localStorage.setItem("ab", true)
+if (!inFrame && !navigator.userAgent.includes("Firefox") && localStorage.getItem("ab") === "true") {
+  const popup = open("about:blank", "_blank")
   if (!popup || popup.closed) {
-    alert(
-      "Please allow popups for this site. Doing so will allow us to open the site in a about:blank tab and preventing this site from showing up in your history. You can turn this off in the site settings.",
-    );
+    alert("Please allow popups and redirects.")
   } else {
-    const doc = popup.document;
-    const iframe = doc.createElement("iframe");
-    const style = iframe.style;
-    const link = doc.createElement("link");
+    const doc = popup.document
+    const iframe = doc.createElement("iframe")
+    const style = iframe.style
+    const link = doc.createElement("link")
 
-    const name = localStorage.getItem("name") || "My Drive - Google Drive";
-    const icon =
-      localStorage.getItem("icon") ||
-      "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png";
+    const name = localStorage.getItem("name") || "My Drive - Google Drive"
+    const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"
 
-    doc.title = name;
-    link.rel = "icon";
-    link.href = icon;
+    doc.title = name
+    link.rel = "icon"
+    link.href = icon
 
-    iframe.src = location.href;
-    style.position = "fixed";
-    style.top = style.bottom = style.left = style.right = 0;
-    style.border = style.outline = "none";
-    style.width = style.height = "100%";
+    iframe.src = location.href
+    style.position = "fixed"
+    style.top = style.bottom = style.left = style.right = 0
+    style.border = style.outline = "none"
+    style.width = style.height = "100%"
 
-    doc.head.appendChild(link);
-    doc.body.appendChild(iframe);
+    doc.head.appendChild(link)
+    doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI("pLink")) || getRandomUrl();
-    location.replace(pLink);
+    const pLink = localStorage.getItem(encodeURI("pLink")) || getRandomURL()
+    location.replace(pLink)
 
-    const script = doc.createElement("script");
+    const script = doc.createElement("script")
     script.textContent = `
       window.onbeforeunload = function (event) {
         const confirmationMessage = 'Leave Site?';
         (event || window.event).returnValue = confirmationMessage;
         return confirmationMessage;
       };
-    `;
-    doc.head.appendChild(script);
+    `
+    doc.head.appendChild(script)
   }
 }
 // Particles
-document.addEventListener("DOMContentLoaded", event => {
+document.addEventListener("DOMContentLoaded", (event) => {
   if (window.localStorage.getItem("Particles") === "true") {
-    const particlesConfig = {
+    var particlesConfig = {
       particles: {
         number: {
           value: 200,
@@ -166,38 +158,38 @@ document.addEventListener("DOMContentLoaded", event => {
         },
       },
       retina_detect: true,
-    };
-    particlesJS("particles-js", particlesConfig);
+    }
+    particlesJS("particles-js", particlesConfig)
   }
-});
-// Splash texts
+})
+// Splash
 const SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
-  "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
+  "Sub to nvd123 on YouTube",
+  "Request games or report bugs in settings (Google Form)",
+  "Made by nvd123",
+  "Follow @nvd123YT on Twitter",
+  "First private browser-in-browser",
+  "#1 rated private browser-in-browser for gaming",
+  "The world is yours",
+  "GitHub https://github.com/interstellarforker/nvd123ishim",
   "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
-];
+  "DM me on Discord (@nvd123YT)",
+]
 
-let SplashI = Math.floor(Math.random() * SplashT.length);
-const SplashE = document.getElementById("splash");
+let SplashI = Math.floor(Math.random() * SplashT.length)
+const SplashE = document.getElementById("splash")
 
 function US() {
-  SplashI = (SplashI + 1) % SplashT.length;
-  SplashE.innerText = SplashT[SplashI];
+  SplashI = (SplashI + 1) % SplashT.length
+  SplashE.innerText = SplashT[SplashI]
 }
 
-SplashE.innerText = SplashT[SplashI];
+SplashE.innerText = SplashT[SplashI]
 
-SplashE.addEventListener("click", US);
-// Random URL
-function getRandomUrl() {
-  const randomUrls = [
+SplashE.addEventListener("click", US)
+
+function getRandomURL() {
+  let randomURLS = [
     "https://kahoot.it",
     "https://classroom.google.com",
     "https://drive.google.com",
@@ -206,15 +198,10 @@ function getRandomUrl() {
     "https://slides.google.com",
     "https://www.nasa.gov",
     "https://blooket.com",
-    "https://clever.com",
-    "https://edpuzzle.com",
-    "https://khanacademy.org",
-    "https://wikipedia.org",
-    "https://dictionary.com",
-  ];
-  return randomUrls[randRange(0, randomUrls.length)];
+  ]
+  return randomURLS[randRange(0, randomURLS.length)]
 }
 
 function randRange(min, max) {
-  return Math.floor(Math.random() * (max - min) + min);
+  return Math.floor(Math.random() * (max - min) + min)
 }
